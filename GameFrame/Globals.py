@@ -4,8 +4,8 @@ class Globals:
     running = True
     FRAMES_PER_SECOND = 30
 
-    SCREEN_WIDTH = 800
-    SCREEN_HEIGHT = 600
+    SCREEN_WIDTH = 1200
+    SCREEN_HEIGHT = 800
 
     SCORE = 0
 
@@ -16,7 +16,7 @@ class Globals:
     window_name = 'GF Game'
 
     # - Set the order of the rooms - #
-    levels = ["WelcomeScreen", "Maze", "ScrollingShooter", "BreakOut"]
+    levels = ["MainRoom"]
 
     # - Set the starting level - #
     start_level = 0
@@ -38,3 +38,4 @@ class Globals:
 
     total_count = 0
     destroyed_count = 0
+    character_speed = 5
