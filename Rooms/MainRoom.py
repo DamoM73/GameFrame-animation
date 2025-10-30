@@ -1,6 +1,7 @@
 from GameFrame import Level, Globals
 from Objects.Asteroid import Asteroid
 from Objects.Chracter import Character
+from Objects.Explosion import Explosion
 
 class MainRoom(Level):
     def __init__(self, screen, joysticks):
@@ -8,3 +9,4 @@ class MainRoom(Level):
 
         self.add_room_object(Asteroid(self, 100, 100))
         self.add_room_object(Character(self, Globals.SCREEN_WIDTH/2, Globals.SCREEN_HEIGHT/2))
+        self.add_room_object(Explosion(self, Globals.SCREEN_WIDTH - 100, Globals.SCREEN_HEIGHT - 100))
