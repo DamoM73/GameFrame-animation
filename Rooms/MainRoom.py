@@ -8,6 +8,8 @@ class MainRoom(Level):
     def __init__(self, screen, joysticks):
         Level.__init__(self, screen, joysticks)
 
+        self.set_background_image("Background.png")
+
         self.add_room_object(Asteroid(self, 100, 100))
         self.add_room_object(Character(self, Globals.SCREEN_WIDTH/2, Globals.SCREEN_HEIGHT/2))
         self.add_room_object(Explosion(self, Globals.SCREEN_WIDTH - 100, Globals.SCREEN_HEIGHT - 100))
