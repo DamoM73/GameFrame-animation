@@ -17,5 +17,4 @@ class Button(RoomObject):
             print("Left")
         elif button_number == 3:  # right mouse button
             print("Right")
-        elif button_number == 2:  # middle mouse button
-            print("Middle")
+        
