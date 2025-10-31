@@ -1,3 +1,4 @@
 from Objects.Asteroid import Asteroid
-from Objects.Chracter import Character
+from Objects.Character import Character
 from Objects.Explosion import Explosion
+from Objects.Button import Button
